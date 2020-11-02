@@ -71,8 +71,16 @@ namespace CollectionsDemo
             dictionary.Add(70, "Randy");
             dictionary.Add(90, "Max");
             dictionary.Add(80, "Caroline");
+        }
 
-
+        private static void SetImplementation()
+        {
+            //creating set variable
+            var set = new HashSet<string>();
+            
+            set.Add("Lucifer");
+            set.Add("Morningstar");
+            set.Add("Decker");
         }
     }
 }
